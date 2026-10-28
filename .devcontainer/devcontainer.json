@@ -4,8 +4,5 @@
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:4": { "moby": false },
     "ghcr.io/devcontainers-extra/features/kind:1": {}
-  },
-  "hostRequirements": {
-    "cpus": 8
   }
 }
