@@ -6,6 +6,7 @@
     "memory": "16gb",
     "storage": "32gb"
   },
+  "updateContentCommand": "make WHAT=cmd/kubectl",
   "customizations": {
     "vscode": {
       "extensions": ["golang.go"]
