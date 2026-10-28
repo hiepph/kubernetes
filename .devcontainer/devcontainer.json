@@ -1,6 +1,10 @@
 {
-  "name": "kubernetes-build",
+  "name": "kubernetes",
   "image": "mcr.microsoft.com/devcontainers/go:1",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers-extra/features/kind:1": {}
+  },
   "hostRequirements": {
     "cpus": 4,
     "memory": "16gb",
